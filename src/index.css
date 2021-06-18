@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+border: 1px solid green;
+padding: 15px 15px;
+min-width: 970px;
+margin-top: 50px;
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color: honeydew;
+}
+td:hover{
+  cursor:pointer;
+}
+input{
+ height: 20px;
+ margin:10px;
+ /* border: 1px solid rgb(108, 119, 91);
+  border-radius: 4px; */
+}
+.eachItem{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  padding: 4px 12px;
+  margin-right: 6px;
+  margin-top: 2px;
+  border: none;
+}
+input[type="date"]{
+
+  padding: 2px 16px;
+
+}
+label{
+  display: inline-block;
+  font-weight: bold;
+  color: cornflowerblue;
+  
+}
+h1{
+  font-size: 32px;
+}
